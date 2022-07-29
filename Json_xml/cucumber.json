@@ -1,0 +1,805 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14948781900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Invoke1()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Display_show_title Check",
+        "description": "",
+        "id": "to-verify-the-click-functionality-of-display-show-title-option-in-app-section-of--demoapi-app.;display-show-title-check",
+        "after": [
+          {
+            "result": {
+              "duration": 247607900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 499941100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "application has already opened",
+            "match": {
+              "location": "AnimationFuncSteps.application_has_already_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1870482000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user tap on the App section of app",
+            "match": {
+              "location": "DisplayTitleSteps.user_tap_on_the_App_section_of_app()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 815621100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "tap on the Action Bar option",
+            "match": {
+              "location": "DisplayTitleSteps.tap_on_the_Action_Bar_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2494218900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "tap on the Display Option",
+            "match": {
+              "location": "DisplayTitleSteps.tap_on_the_Display_Option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 727395200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "as click on Display Show Title button",
+            "match": {
+              "location": "DisplayTitleSteps.as_click_on_Display_Show_Title_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "path of that button starts toggling on the top",
+            "match": {
+              "location": "DisplayTitleSteps.path_of_that_button_get_disappeared_from_the_top()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@test3"
+          }
+        ]
+      }
+    ],
+    "name": "To verify the click functionality of Display_Show_Title option in App section of  DemoApi app.",
+    "description": "",
+    "id": "to-verify-the-click-functionality-of-display-show-title-option-in-app-section-of--demoapi-app.",
+    "keyword": "Feature",
+    "uri": "DisplayTitleOption.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11893874100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Invoke1()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Check Flip Action of whole list",
+        "description": "",
+        "id": "to-verify-and-check-the-action-of-flip-button-under-animation-section-of-the--app.;check-flip-action-of-whole-list",
+        "after": [
+          {
+            "result": {
+              "duration": 221522200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2264400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "application has already opened",
+            "match": {
+              "location": "AnimationFuncSteps.application_has_already_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2004027900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user tap on the Animation section",
+            "match": {
+              "location": "AnimationFuncSteps.user_tap_on_the_Animation_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1409947600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "tap on the view Flip option",
+            "match": {
+              "location": "FlipListSteps.tap_on_the_view_Flip_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186420600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "as user click on the Flip button",
+            "match": {
+              "location": "FlipListSteps.as_user_click_on_the_Flip_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "whole list of options get flip to another language",
+            "match": {
+              "location": "FlipListSteps.whole_list_of_options_get_flip_to_another_language()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@test6"
+          }
+        ]
+      }
+    ],
+    "name": "To verify and check the action of flip button under animation section of the  app.",
+    "description": "",
+    "id": "to-verify-and-check-the-action-of-flip-button-under-animation-section-of-the--app.",
+    "keyword": "Feature",
+    "uri": "FliptheList.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "user is inside the hide-show animation section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 352900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application has already opened",
+            "match": {
+              "location": "AnimationFuncSteps.application_has_already_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1839838900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user tap on the Animation section",
+            "match": {
+              "location": "AnimationFuncSteps.user_tap_on_the_Animation_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1294570000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "tap on the Hide-Show Animation section",
+            "match": {
+              "location": "AnimationFuncSteps.tap_on_the_Hide_Show_Animation_section()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12501709800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Invoke1()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To verify the working of hiding of buttons",
+        "description": "",
+        "id": "featurefile-for-animation-related-test;to-verify-the-working-of-hiding-of-buttons",
+        "after": [
+          {
+            "result": {
+              "duration": 237652300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is inside hideshow animation section of the app",
+            "match": {
+              "location": "AnimationFuncSteps.user_is_inside_hideshow_animation_section_of_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166961600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user markcheck to provide some custom animation",
+            "match": {
+              "location": "AnimationFuncSteps.markcheck_to_provide_some_custom_animation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 775825900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "start tapping the buttons to hide them",
+            "match": {
+              "location": "AnimationFuncSteps.start_tapping_the_buttons_to_hide_them()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 449700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "all buttons have gone invisible",
+            "match": {
+              "location": "AnimationFuncSteps.all_buttons_have_gone_invisible()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "user is inside the hide-show animation section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 360900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application has already opened",
+            "match": {
+              "location": "AnimationFuncSteps.application_has_already_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2032068900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user tap on the Animation section",
+            "match": {
+              "location": "AnimationFuncSteps.user_tap_on_the_Animation_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1327778600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "tap on the Hide-Show Animation section",
+            "match": {
+              "location": "AnimationFuncSteps.tap_on_the_Hide_Show_Animation_section()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12029477100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Invoke1()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "To verify the working of Show button to show hidden buttons",
+        "description": "",
+        "id": "featurefile-for-animation-related-test;to-verify-the-working-of-show-button-to-show-hidden-buttons",
+        "after": [
+          {
+            "result": {
+              "duration": 341351400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is inside hideshow animation section of the app",
+            "match": {
+              "location": "AnimationFuncSteps.user_is_inside_hideshow_animation_section_of_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 344107000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user markcheck to provide some custom animation",
+            "match": {
+              "location": "AnimationFuncSteps.markcheck_to_provide_some_custom_animation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 813080200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "start tapping the buttons to hide them",
+            "match": {
+              "location": "AnimationFuncSteps.start_tapping_the_buttons_to_hide_them()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1037665800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "as user tap on the Show button",
+            "match": {
+              "location": "AnimationFuncSteps.as_user_tap_on_the_Show_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "all hidden buttons starts being visible",
+            "match": {
+              "location": "AnimationFuncSteps.all_hidden_buttons_starts_being_visible()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@test2"
+          }
+        ]
+      }
+    ],
+    "name": "Featurefile for Animation Related Test",
+    "description": "       To verify the hiding and then showing of that buttons functionality under the animation section of DemoApi app.",
+    "id": "featurefile-for-animation-related-test",
+    "keyword": "Feature",
+    "uri": "Hide\u0026ShowButtons.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11165862200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Invoke1()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Send an SMS",
+        "description": "",
+        "id": "to-verify-the-sms-messaging-functionality-in-demoapi-app.;send-an-sms;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 291420800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 270900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application has already opened",
+            "match": {
+              "location": "AnimationFuncSteps.application_has_already_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2026043500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user tap on the OS section",
+            "match": {
+              "location": "SMSMessagingSteps.user_tap_on_the_OS_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1553205400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select the SMS messaging option",
+            "match": {
+              "location": "SMSMessagingSteps.select_the_SMS_messaging_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182737100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "write \"9565715861\" within recipient section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9565715861",
+                  "offset": 7
+                }
+              ],
+              "location": "SMSMessagingSteps.write_within_recipient_section(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 775618600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "write \"Hello Peter!\" within message body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello Peter!",
+                  "offset": 7
+                }
+              ],
+              "location": "SMSMessagingSteps.write_within_message_body(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 605503600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on Send button",
+            "match": {
+              "location": "SMSMessagingSteps.click_on_Send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "this \"Message sent!\" of successfull sent appear on screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Message sent!",
+                  "offset": 6
+                }
+              ],
+              "location": "SMSMessagingSteps.this_of_successfull_sent_appear_on_screen(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test4"
+          }
+        ]
+      }
+    ],
+    "name": "To verify the SMS Messaging functionality in DemoApi app.",
+    "description": "",
+    "id": "to-verify-the-sms-messaging-functionality-in-demoapi-app.",
+    "keyword": "Feature",
+    "uri": "SMSMessaging.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11719275400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Invoke1()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "View All images of gallery through swiping horizontally",
+        "description": "",
+        "id": "swipe-to-view-images;view-all-images-of-gallery-through-swiping-horizontally",
+        "after": [
+          {
+            "result": {
+              "duration": 307251800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 253800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "application has already opened",
+            "match": {
+              "location": "AnimationFuncSteps.application_has_already_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2040186200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user tap on the view section",
+            "match": {
+              "location": "SwipeOverImagesSteps.user_tap_on_the_view_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1628064600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "go inside the gallary section",
+            "match": {
+              "location": "SwipeOverImagesSteps.go_inside_the_gallary_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1715541500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select the Photos option",
+            "match": {
+              "location": "SwipeOverImagesSteps.select_the_Photos_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "images of gallary gets visible",
+            "match": {
+              "location": "SwipeOverImagesSteps.images_of_gallary_gets_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2865718300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User swipes horizontally from right to left",
+            "match": {
+              "location": "SwipeOverImagesSteps.user_swipes_horizontally_from_right_to_left()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "more images of nature get seen",
+            "match": {
+              "location": "SwipeOverImagesSteps.more_images_of_nature_get_seen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@test5"
+          }
+        ]
+      }
+    ],
+    "name": "Swipe_to_view_Images",
+    "description": "     To verify the horizontal swipe functionality over the gallary images present in app.",
+    "id": "swipe-to-view-images",
+    "keyword": "Feature",
+    "uri": "SwipeOverGallaryImages.feature"
+  }
+]
